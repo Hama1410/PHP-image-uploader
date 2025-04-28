@@ -18,7 +18,7 @@ No database needed — everything is handled through the file system!
 
 ## 📸 Live Preview
 
-![Live Preview](http://hama1410.infinityfreeapp.com/index.php)
+(http://hama1410.infinityfreeapp.com/index.php)
 
 
 
