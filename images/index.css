@@ -1,0 +1,27 @@
+:root {
+    --prtaqali: #a83e1f;
+    --prtaqali-kal:#f74f1e;
+    --dark: #222222;
+    --white: white;
+}
+
+@font-face {
+    font-family: Nrt-bold;
+    src: url(NRT-Bd.ttf);
+}
+@font-face {
+    font-family:logo;
+    src: url(headway.ttf);
+}
+
+
+
+body{
+    background-color:var(--dark);
+
+}
+
+h1{
+    color: var(--white);
+}
+
