@@ -1,0 +1,107 @@
+:root {
+    --prtaqali: #a83e1f;
+    --prtaqali-kal:#f74f1e;
+    --dark: #222222;
+    --white: white;
+}
+
+@font-face {
+    font-family: Nrt-bold;
+    src: url(NRT-Bd.ttf);
+}
+@font-face {
+    font-family:logo;
+    src: url(headway.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: nrt-bold;
+}
+
+body{
+    background-color:var(--dark);
+}
+
+h2{
+    color: var(--white);
+}
+
+a:visited {
+    color: var(--white);
+}
+
+a:link {
+    color: var(--white);
+}
+
+
+.nav h4 a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.nav{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.nav h4 a:hover {
+    color: var(--prtaqali-kal);
+    opacity: 0.9;
+    transition: .4s;
+}
+.nav h4 a:active {
+    color: var(--prtaqali-kal);
+    opacity: 0.9;
+    transition: .4s;
+}
+
+.btn {
+    background-color: var(--prtaqali-kal);
+    color: var(white);
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.btn:hover {
+    color: var(--prtaqali-kal);
+    background-color: var(--white);
+    transition: .6s;
+}
+
+.btn:active {
+    color: var(--prtaqali-kal);
+    background-color: var(--dark);
+    transition: .26s;
+     
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.all{
+    font-family: logo;
+}
+
+span {
+    color: var(--prtaqali-kal);
+}
+
+.none{
+    opacity: 0.7;
+}
+
